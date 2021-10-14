@@ -1,0 +1,42 @@
+
+/* RESETS */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+    
+/* Globl Styles*/
+
+    
+
+/* Page Layout - Main */
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+      
+nav {
+    background-color: rgb(104, 104, 79);
+}
+
+main {
+    background-color: rgb(225, 223, 209);
+}
+
+#page {
+    background-color: rgb(198, 186, 145);
+    width: 100%;
+    max-width: 2000px;
+    height: 500px;
+}
+
+footer {
+    background-color: rgb(104, 104, 74);
+}
