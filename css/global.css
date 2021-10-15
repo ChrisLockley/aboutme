@@ -17,26 +17,104 @@ html, body {
 
 /* Page Layout - Main */
 
-body {
+#body-1 {
     display: grid;
     grid-template-rows: auto 1fr;
 }
       
-nav {
+#nav-1 {
     background-color: rgb(104, 104, 79);
 }
 
-main {
+#img-1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 15px;
+}
+
+#main-1 {
     background-color: rgb(225, 223, 209);
 }
 
-#page {
+#page-1 {
     background-color: rgb(198, 186, 145);
     width: 100%;
     max-width: 2000px;
     height: 500px;
 }
 
-footer {
+#footer-1 {
     background-color: rgb(104, 104, 74);
+}
+
+#body-2 {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+      
+#nav-2 {
+    background-color: rgb(42, 64, 74);
+}
+
+#main-2 {
+    background-color: rgb(207, 231, 233);
+}
+
+#page-2 {
+    background-color: rgb(140, 185, 206);
+    width: 100%;
+    max-width: 2000px;
+    height: 500px;
+}
+
+#footer-2 {
+    background-color: rgb(42, 64, 74);
+}
+
+#body-3 {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+      
+#nav-3 {
+    background-color: rgb(86, 71, 106);
+}
+
+#main-3 {
+    background-color: rgb(232, 211, 214);
+}
+
+#page-3 {
+    background-color: rgb(198, 186, 145);
+    width: 100%;
+    max-width: 2000px;
+    height: 500px;
+}
+
+#footer-3 {
+    background-color: rgb(86, 71, 106);
+}
+
+#body-4 {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+      
+#nav-4 {
+    background-color: rgb(88, 100, 82);
+}
+
+#main-4 {
+    background-color: rgb(221, 241, 223);
+}
+
+#page-4 {
+    background-color: rgb(184, 232, 192);
+    width: 100%;
+    max-width: 2000px;
+    height: 500px;
+}
+
+#footer-4 {
+    background-color: rgb(88, 100, 82);
 }
