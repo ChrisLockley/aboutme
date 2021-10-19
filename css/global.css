@@ -26,10 +26,36 @@ html, body {
     background-color: rgb(104, 104, 79);
 }
 
+#main-nav-1 ul {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+#main-nav-1 li a {
+    display: block;
+    padding: 10px;
+    color:rgb(236, 212, 181);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#main-nav-1 li a:hover { 
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+#title-1 {
+    display: block;
+    padding:15px;
+    background-color: rgb(199, 199, 130);
+    margin:15px;
+    font-size: 200%;
+}
+
 #img-1 {
     margin-left: auto;
     margin-right: auto;
-    margin-block: 15px;
+    margin: 15px;
     padding-left: 25%;
 }
 
@@ -51,6 +77,24 @@ html, body {
     background-color: rgb(104, 104, 74);
 }
 
+#footer-nav-1 li a:hover { 
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+#footer-nav-1 li a {
+    display: block;
+    padding: 10px;
+    color:rgb(236, 212, 181);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#footer-nav-1 ul {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
 #body-2 {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -58,6 +102,24 @@ html, body {
       
 #nav-2 {
     background-color: rgb(42, 64, 74);
+}
+
+#main-nav-2 ul {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+#main-nav-2 li a {
+    display: block;
+    padding: 10px;
+    color:rgb(147, 205, 231);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#main-nav-2 li a:hover { 
+    background-color: rgba(128, 128, 128, 0.295);
 }
 
 #main-2 {
@@ -75,6 +137,24 @@ html, body {
     background-color: rgb(42, 64, 74);
 }
 
+#footer-nav-2 li a:hover { 
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+#footer-nav-2 li a {
+    display: block;
+    padding: 10px;
+    color:rgb(147, 205, 231);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#footer-nav-2 ul {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
 #body-3 {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -82,6 +162,24 @@ html, body {
       
 #nav-3 {
     background-color: rgb(86, 71, 106);
+}
+
+#main-nav-3 ul {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+#main-nav-3 li a {
+    display: block;
+    padding: 10px;
+    color:rgb(181, 149, 223);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#main-nav-3 li a:hover { 
+    background-color: rgba(128, 128, 128, 0.295);
 }
 
 #main-3 {
@@ -99,6 +197,24 @@ html, body {
     background-color: rgb(86, 71, 106);
 }
 
+#footer-nav-3 li a:hover { 
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+#footer-nav-3 li a {
+    display: block;
+    padding: 10px;
+    color:rgb(181, 149, 223);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#footer-nav-3 ul {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
 #body-4 {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -106,6 +222,24 @@ html, body {
       
 #nav-4 {
     background-color: rgb(88, 100, 82);
+}
+
+#main-nav-4 ul {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+#main-nav-4 li a {
+    display: block;
+    padding: 10px;
+    color:rgb(163, 224, 173);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#main-nav-4 li a:hover { 
+    background-color: rgba(128, 128, 128, 0.295);
 }
 
 #main-4 {
@@ -121,4 +255,22 @@ html, body {
 
 #footer-4 {
     background-color: rgb(88, 100, 82);
+}
+
+#footer-nav-4 li a:hover { 
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+#footer-nav-4 li a {
+    display: block;
+    padding: 10px;
+    color:rgb(163, 224, 173);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#footer-nav-4 ul {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
 }
