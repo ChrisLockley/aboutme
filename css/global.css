@@ -24,6 +24,7 @@ html, body {
       
 #nav-1 {
     background-color: rgb(104, 104, 79);
+    width: 100%;
 }
 
 #main-nav-1 ul {
@@ -44,23 +45,44 @@ html, body {
     background-color: rgba(128, 128, 128, 0.295);
 }
 
-#title-1 {
-    display: block;
+h1 {
+    display: inline-block;
     padding:15px;
     background-color: rgb(199, 199, 130);
-    margin:15px;
+    margin:15px 0;
     font-size: 200%;
+    box-sizing: border-box;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 #img-1 {
     margin-left: auto;
     margin-right: auto;
     margin: 15px;
-    padding-left: 25%;
+}
+
+.hero {
+    background-image: url(../images/cover.jpg);
+    height: 100%;
+    background-position: center;
+}
+
+#link-hero {
+    display: block;
+    padding: 10px;
+    color:rgb(236, 212, 181);
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 auto;
 }
 
 #main-1 {
-    background-color: rgb(225, 223, 209);
+    background-color: rgb(231, 228, 201);
 }
 
 #page-1 {
@@ -68,13 +90,33 @@ html, body {
 }
 
 #page-text-1 {
-    padding-block: 25px;
+    padding: 25px;
     padding-left: 25%;
     padding-right: 25%;
 }
 
+#links-1 div.buttons-1 {
+    display: inline-block;
+    background-color: blanchedalmond;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+#links-1 div.buttons-1 h3 {
+    background-color: rgb(160, 159, 95);
+    color: rgb(139, 118, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+.text-1 {
+    padding: 10px;
+    text-align: center;
+}
+
 #footer-1 {
-    background-color: rgb(104, 104, 74);
+    background-color: rgb(104, 104, 79);
+    width: 100%;
 }
 
 #footer-nav-1 li a:hover { 
@@ -91,7 +133,7 @@ html, body {
 
 #footer-nav-1 ul {
     display:flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     list-style: none;
 }
 
@@ -151,7 +193,7 @@ html, body {
 
 #footer-nav-2 ul {
     display:flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     list-style: none;
 }
 
@@ -211,7 +253,7 @@ html, body {
 
 #footer-nav-3 ul {
     display:flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     list-style: none;
 }
 
@@ -271,6 +313,6 @@ html, body {
 
 #footer-nav-4 ul {
     display:flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     list-style: none;
 }
