@@ -13,7 +13,83 @@ html, body {
     
 /* Globl Styles*/
 
-    
+
+/* Nav - Footer */
+
+.link-color1 {
+    color:rgb(236, 212, 181);
+}
+
+.link-color2 {
+    color:rgb(147, 205, 231);
+}
+
+.link-color3 {
+    color:rgb(181, 149, 223);
+}
+
+.link-color4 {
+    color:rgb(163, 224, 173);
+}
+
+.link-color1:hover {
+    color:rgba(128, 128, 128, 0.295);
+}
+
+.link-color2:hover {
+    color:rgba(128, 128, 128, 0.295);
+}
+
+.link-color3:hover {
+    color:rgba(128, 128, 128, 0.295);
+}
+
+.link-color4:hover {
+    color:rgba(128, 128, 128, 0.295);
+}
+
+.nav-1 {
+    background-color: rgb(104, 104, 79);
+    width: 100%;
+}
+
+.nav-2 {
+    background-color: rgb(42, 64, 74);
+}
+
+.nav-3 {
+    background-color: rgb(86, 71, 106);
+}
+
+.nav-4 {
+    background-color: rgb(88, 100, 82);
+}
+
+.main-nav ul {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.main-nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer-nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer-nav ul {
+    display:flex;
+    justify-content: flex-start;
+    list-style: none;
+}
 
 /* Page Layout - Main */
 
@@ -21,31 +97,8 @@ html, body {
     display: grid;
     grid-template-rows: auto 1fr;
 }
-      
-#nav-1 {
-    background-color: rgb(104, 104, 79);
-    width: 100%;
-}
 
-#main-nav-1 ul {
-    display:flex;
-    justify-content: flex-end;
-    list-style: none;
-}
-
-#main-nav-1 li a {
-    display: block;
-    padding: 10px;
-    color:rgb(236, 212, 181);
-    text-decoration: none;
-    font-weight: 700;
-}
-
-#main-nav-1 li a:hover { 
-    background-color: rgba(128, 128, 128, 0.295);
-}
-
-h1 {
+#header-1{
     display: inline-block;
     padding:15px;
     background-color: rgb(199, 199, 130);
@@ -95,73 +148,70 @@ header {
     padding-right: 25%;
 }
 
-#links-1 div.buttons-1 {
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links div.resource-button {
     display: inline-block;
-    background-color: blanchedalmond;
     margin: 10px;
     margin-bottom: 10px;
 }
 
-#links-1 div.buttons-1 h3 {
-    background-color: rgb(160, 159, 95);
-    color: rgb(139, 118, 0);
+.links div.resource-button h3 {
     padding: 10px;
     text-align: center;
 }
 
-.text-1 {
-    padding: 10px;
-    text-align: center;
-}
-
-#footer-1 {
-    background-color: rgb(104, 104, 79);
-    width: 100%;
-}
-
-#footer-nav-1 li a:hover { 
-    background-color: rgba(128, 128, 128, 0.295);
-}
-
-#footer-nav-1 li a {
-    display: block;
-    padding: 10px;
-    color:rgb(236, 212, 181);
+.resource-button {
     text-decoration: none;
-    font-weight: 700;
 }
 
-#footer-nav-1 ul {
-    display:flex;
-    justify-content: flex-start;
-    list-style: none;
+.int h3 {
+    background-color: rgb(99, 74, 109);
+}
+
+.int .text {
+    background-color: rgb(199, 162, 214);
+    color:rgb(0, 0, 0);
+}
+
+.act h3 {
+    background-color: rgb(47, 78, 104);
+}
+
+.act .text {
+    background-color: rgb(151, 208, 235);
+    color:rgb(0, 0, 0);
+}
+
+.ref h3 {
+    background-color: rgb(55, 109, 78);
+}
+
+.ref .text {
+    background-color: rgb(167, 238, 167);
+    color:rgb(0, 0, 0);
+}
+
+.text {
+    padding: 10px;
+    text-align: center;
 }
 
 #body-2 {
     display: grid;
     grid-template-rows: auto 1fr;
 }
-      
-#nav-2 {
-    background-color: rgb(42, 64, 74);
-}
 
-#main-nav-2 ul {
-    display:flex;
-    justify-content: flex-end;
-    list-style: none;
-}
-
-#main-nav-2 li a {
-    display: block;
-    padding: 10px;
-    color:rgb(147, 205, 231);
-    text-decoration: none;
-    font-weight: 700;
-}
-
-#main-nav-2 li a:hover { 
-    background-color: rgba(128, 128, 128, 0.295);
+#header-2{
+    display: inline-block;
+    padding:15px;
+    background-color: rgb(89, 161, 194);
+    margin:15px 0;
+    font-size: 200%;
+    box-sizing: border-box;
 }
 
 #main-2 {
@@ -175,117 +225,63 @@ header {
     height: 500px;
 }
 
-#footer-2 {
-    background-color: rgb(42, 64, 74);
-}
-
-#footer-nav-2 li a:hover { 
-    background-color: rgba(128, 128, 128, 0.295);
-}
-
-#footer-nav-2 li a {
-    display: block;
-    padding: 10px;
-    color:rgb(147, 205, 231);
-    text-decoration: none;
-    font-weight: 700;
-}
-
-#footer-nav-2 ul {
-    display:flex;
-    justify-content: flex-start;
-    list-style: none;
-}
-
 #body-3 {
     display: grid;
     grid-template-rows: auto 1fr;
 }
-      
-#nav-3 {
-    background-color: rgb(86, 71, 106);
-}
 
-#main-nav-3 ul {
-    display:flex;
-    justify-content: flex-end;
-    list-style: none;
-}
-
-#main-nav-3 li a {
-    display: block;
-    padding: 10px;
-    color:rgb(181, 149, 223);
-    text-decoration: none;
-    font-weight: 700;
-}
-
-#main-nav-3 li a:hover { 
-    background-color: rgba(128, 128, 128, 0.295);
+#header-3{
+    display: inline-block;
+    padding:15px;
+    background-color: rgb(108, 89, 194);
+    margin:15px 0;
+    font-size: 200%;
+    box-sizing: border-box;
 }
 
 #main-3 {
     background-color: rgb(232, 211, 214);
 }
 
-#page-3 {
-    background-color: rgb(198, 186, 145);
-    width: 100%;
-    max-width: 2000px;
-    height: 500px;
+.page-3 {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
 }
 
-#footer-3 {
-    background-color: rgb(86, 71, 106);
+#about-me {
+    background-color: rgb(174, 147, 209);
+    padding: 6%;
 }
 
-#footer-nav-3 li a:hover { 
-    background-color: rgba(128, 128, 128, 0.295);
-}
-
-#footer-nav-3 li a {
-    display: block;
-    padding: 10px;
-    color:rgb(181, 149, 223);
-    text-decoration: none;
-    font-weight: 700;
-}
-
-#footer-nav-3 ul {
-    display:flex;
-    justify-content: flex-start;
-    list-style: none;
+#img-3 {
+    display:inline-block;
+    box-sizing: border-box;
+    background-image: url(../images/Battle\ of\ Leuctra.png);
+    height:fit-content;
+    width: 500px;
 }
 
 #body-4 {
     display: grid;
     grid-template-rows: auto 1fr;
 }
-      
-#nav-4 {
-    background-color: rgb(88, 100, 82);
-}
 
-#main-nav-4 ul {
-    display:flex;
-    justify-content: flex-end;
-    list-style: none;
-}
-
-#main-nav-4 li a {
-    display: block;
-    padding: 10px;
-    color:rgb(163, 224, 173);
-    text-decoration: none;
-    font-weight: 700;
-}
-
-#main-nav-4 li a:hover { 
-    background-color: rgba(128, 128, 128, 0.295);
+#header-4{
+    display: inline-block;
+    padding:15px;
+    background-color: rgb(89, 194, 133);
+    margin:15px 0;
+    font-size: 200%;
+    box-sizing: border-box;
 }
 
 #main-4 {
     background-color: rgb(221, 241, 223);
+}
+
+#main-4 li a {
+    text-decoration: none;
+    text-align: center;
 }
 
 #page-4 {
@@ -293,26 +289,4 @@ header {
     width: 100%;
     max-width: 2000px;
     height: 500px;
-}
-
-#footer-4 {
-    background-color: rgb(88, 100, 82);
-}
-
-#footer-nav-4 li a:hover { 
-    background-color: rgba(128, 128, 128, 0.295);
-}
-
-#footer-nav-4 li a {
-    display: block;
-    padding: 10px;
-    color:rgb(163, 224, 173);
-    text-decoration: none;
-    font-weight: 700;
-}
-
-#footer-nav-4 ul {
-    display:flex;
-    justify-content: flex-start;
-    list-style: none;
 }
