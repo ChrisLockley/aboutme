@@ -7,8 +7,8 @@
 
 
 html, body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
     
 /* Globl Styles*/
@@ -200,6 +200,8 @@ header {
     text-align: center;
 }
 
+
+
 #body-2 {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -225,6 +227,32 @@ header {
     height: 500px;
 }
 
+.page-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#about-me-2 {
+    background-color: rgb(147, 176, 209);
+    padding: 4%;
+}
+
+#img-2a {
+    background-image: url(../images/grg.png);
+}
+
+#img-2b {
+    background-image: url(../images/zo.png);
+}
+
+#img-2c {
+    background-image: url(../images/Vipassana-Diagram.png);
+}
+
+
+
+
+
 #body-3 {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -245,21 +273,37 @@ header {
 
 .page-3 {
     display: grid;
-    grid-template-columns: 1.2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-#about-me {
+#about-me-3 {
     background-color: rgb(174, 147, 209);
-    padding: 6%;
+    padding: 4%;
 }
 
-#img-3 {
+.text-img {
     display:inline-block;
     box-sizing: border-box;
-    background-image: url(../images/Battle\ of\ Leuctra.png);
-    height:fit-content;
-    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-content: center; 
 }
+
+#img-3a {
+    background-image: url(../images/Battle-of-Leuctra.png);
+}
+
+#img-3b {
+    background-image: url(../images/Allegory-of-The-Cave.png);
+}
+
+#img-3c {
+    background-image: url(../images/Casey-Anthony.png);
+}
+
+
+
+
 
 #body-4 {
     display: grid;
@@ -287,6 +331,15 @@ header {
 #page-4 {
     background-color: rgb(184, 232, 192);
     width: 100%;
-    max-width: 2000px;
-    height: 500px;
+    height: 100%;
+    padding: 15px;
+}
+
+#page-4 ul li a{
+    text-decoration: none;
+}
+
+#page-4 ul {
+    list-style: none;
+    text-align: center;
 }
