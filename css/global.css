@@ -209,25 +209,29 @@ header {
 #header-2{
     display: inline-block;
     padding:15px;
-    background-color: rgb(89, 161, 194);
+    background-color: rgb(108, 168, 196);
     margin:15px 0;
     font-size: 200%;
     box-sizing: border-box;
 }
 
+#body-2 {
+    background-color: rgb(207, 226, 233);
+}
+
 #main-2 {
-    background-color: rgb(207, 231, 233);
+    background-color: rgb(135, 164, 207);
 }
 
 #page-2 {
-    background-color: rgb(140, 185, 206);
+    background-color: rgb(87, 166, 202);
     width: 100%;
     max-width: 2000px;
     height: 500px;
 }
 
 #about-me-2 {
-    background-color: rgb(147, 176, 209);
+    background-color: rgb(84, 141, 206);
     padding: 4%;
 }
 
@@ -243,8 +247,18 @@ header {
     background-image: url(../images/Vipassana-Diagram.png);
 }
 
-#link-2a {
-    
+.text-img {
+    justify-content: center;
+    display: flex;
+}
+
+.act-links a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    justify-content: center;
+    color: black;
 }
 
 
