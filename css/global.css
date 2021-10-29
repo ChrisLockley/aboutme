@@ -254,7 +254,7 @@ header {
 
 .act-links a {
     display: flex;
-    padding: 10px;
+    margin-top: 10%;
     text-decoration: none;
     font-weight: 700;
     justify-content: center;
@@ -299,6 +299,14 @@ header {
 
 #img-3c {
     background-image: url(../images/Casey-Anthony.png);
+}
+
+.video {
+    display: flex;
+    height:fit-content;
+    width: fit-content;
+    justify-content: center;
+    margin: 5% 0;
 }
 
 
